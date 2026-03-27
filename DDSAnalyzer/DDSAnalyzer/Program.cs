@@ -11,6 +11,8 @@ namespace DdsBatchAnalyzer
         static void Main(string[] args)
         {
             Console.WriteLine("=== DDS 批量分析工具 ===\n");
+            Console.WriteLine("Version: 1.01");
+            Console.WriteLine("Author: ChilorXN.\n");
 
             // 获取目标文件夹路径
             string targetPath = GetTargetFolder();
